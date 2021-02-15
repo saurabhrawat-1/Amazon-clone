@@ -1,0 +1,48 @@
+.product__scroll {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: all 200ms ease;
+}
+
+.product__scroll:hover {
+  transform: scale(1.01);
+  box-shadow: 2px 3px 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scroll__container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 25px;
+}
+
+.scroll__container::-webkit-scrollbar {
+  display: none;
+}
+
+.img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  height: 150px;
+  border: none;
+  margin-left: 80px;
+}
+
+.small {
+  font-size: 15px !important;
+  margin-left: 10px;
+  transition: color 200ms ease;
+}
+
+.small:hover {
+  color: red;
+}
+
+.large {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: rgb(89, 84, 84);
+}

@@ -1,0 +1,57 @@
+.checkout__product {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fff;
+  transition: all 200ms ease;
+}
+
+.checkout__product:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 3px 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout__product > img {
+  object-fit: contain;
+  max-width: 180px;
+}
+
+.checkoutProduct__info {
+  width: 40%;
+  margin-left: 30px;
+}
+
+.checkoutProductBank__offers {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  padding: 0 10px;
+}
+
+.checkoutProductBank__offers > h4 {
+  color: green;
+}
+
+.bank__offers > ul > li {
+  font-size: 12px;
+}
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__title {
+  font-weight: bold;
+}
+
+.checkoutProduct__description {
+  font-size: 14px;
+  width: 45%;
+  margin-left: 40px;
+}
+
+.checkoutProduct__bankOffer {
+  width: 30%;
+  margin-left: 30px;
+}

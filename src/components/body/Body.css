@@ -1,0 +1,96 @@
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.body__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.body__image {
+  object-fit: contain;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -175px;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.part__sections {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 100%;
+}
+
+.part__sections > img {
+  height: 240px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+
+.signin__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+  width: 100%;
+  max-height: 150px;
+  background-color: white;
+  z-index: 1;
+  min-width: 100px;
+}
+
+.signin__container > h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.signin__container > a > button {
+  width: 100%;
+  font-size: 14px;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111111;
+  transition: all 100ms ease;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.signin__container > a > button:hover {
+  transform: scale(0.99);
+  box-shadow: none;
+}
+
+.lang__banner {
+  margin-left: 10px;
+}
